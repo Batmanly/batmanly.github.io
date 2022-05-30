@@ -157,5 +157,6 @@ sudo /usr/bin/flask run
 ![[]](/assets/img/tryhackme/haskhell/Pasted%20image%2020220530101354.png)
 
 ![[]](/assets/img/tryhackme/haskhell/root.gif)
+
 Yep. Now we Got root.
 Thanks for reading until the end , if you have any feedback i will appreciate to get , knowing different ways to get root always good for me.
