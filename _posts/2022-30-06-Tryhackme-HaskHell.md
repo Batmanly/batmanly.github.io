@@ -12,7 +12,7 @@ render_with_liquid: false
 ## Room
 
 - **Name:** HaskHell
-- **Profile:** [HaskHell]('https://tryhackme.com/room/haskhell')
+- **Profile:** [HaskHell](https://tryhackme.com/room/haskhell)
 - **Difficulty:** Medium
 - **Description**: Show your professor that his PhD isn't in security.
   ![[]](/assets/img/tryhackme/haskhell/haskell_logo.png)
@@ -130,7 +130,7 @@ ssh prof@10.10.238.6 -i haskhell
 
 ## Previlege Escalation
 
-let's upload [linpeas]('https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS') and look if we can get any previlege escalation point to root or other user.
+let's upload [linpeas](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS) and look if we can get any previlege escalation point to root or other user.
 
 ```
 # Run Python Server
