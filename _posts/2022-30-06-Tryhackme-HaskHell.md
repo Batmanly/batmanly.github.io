@@ -15,7 +15,8 @@ render_with_liquid: false
 - **Profile:** [HaskHell](https://tryhackme.com/room/haskhell)
 - **Difficulty:** Medium
 - **Description**: Show your professor that his PhD isn't in security.
-  ![[]](/assets/img/tryhackme/haskhell/haskell_logo.png)
+
+![[]](/assets/img/tryhackme/haskhell/haskell_logo.png)
 
 ## Overview
 
