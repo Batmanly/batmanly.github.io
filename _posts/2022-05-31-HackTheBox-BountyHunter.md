@@ -11,7 +11,7 @@ img_path: /assets/img/hackthebox/bountyhunter/
 # Information
 ## Room
 -   **Name:** BountyHunter
--   **Profile:** [BountyHunter]('https://app.hackthebox.com/machines/BountyHunter')
+-   **Profile:** [BountyHunter](https://app.hackthebox.com/machines/BountyHunter)
 -   **Difficulty:** Easy
 ![[logo.png]]
 
@@ -191,7 +191,7 @@ pass :m19RoAU0hP41A1sTsq6K
 ```
 
 ## Privilege Escalation
-let's upload [linpeas]('https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS') and look if we can get any privilege escalation point to root or other user.
+let's upload [linpeas](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS) and look if we can get any privilege escalation point to root or other user.
 
 ```
 # Run Python Server
