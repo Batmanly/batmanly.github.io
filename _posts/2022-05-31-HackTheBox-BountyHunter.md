@@ -1,7 +1,7 @@
 ---
 title: HackTheBox - BountyHunter | EN
 author: batmanly
-date: 2022-05-30 10:10:00 +3
+date: 2022-05-31 09:10:00 +3
 categories: [Writeup, HackTheBox]
 tags: [web, xxe, php_filter, hackthebox, writeup]
 render_with_liquid: false
