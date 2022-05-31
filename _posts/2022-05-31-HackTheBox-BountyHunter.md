@@ -13,7 +13,8 @@ img_path: /assets/img/hackthebox/bountyhunter/
 -   **Name:** BountyHunter
 -   **Profile:** [BountyHunter](https://app.hackthebox.com/machines/BountyHunter)
 -   **Difficulty:** Easy
-![[logo.png]]
+
+![[]](logo.png)
 
 ## Overview
 It's a nice room , you can exploit xxe injection , php wrapper to read data, and get root access with exploiting python code and understand it's algorithm.
@@ -96,9 +97,12 @@ http://10.129.98.250/portal.php
 ```
 
 we found there is a log submit system , let's try to inject some data and see what we will get as a response.
-![[track_system.png]]
+
+![[]](track_system.png)
+
 we found there is a data in the post request , after look the with decoder it's look xml to base64 data let's try to xxe payload if it's work . 
-![[decoder.png]]
+
+![[]](decoder.png)
 
 ```
 <?xml  version="1.0" encoding="ISO-8859-1"?>
@@ -111,7 +115,9 @@ we found there is a data in the post request , after look the with decoder it's 
 		</bugreport>
 ```
 let's use this xxe payload and send it to server , see the response.
-![[xxe_payload.png]]
+
+![[]](xxe_payload.png)
+
 after sending xxe payload to server we can read data from server , so let's move on and read more files.
 
 after some try i tried again content discovery with gobuster .
@@ -179,7 +185,7 @@ $testuser = "test";
 ```
 
 
-![[db_php.png]]
+![[]](db_php.png)
 
 now we have credentials let's try to access server with use we find /etc/passwd file and password we found 
 from db.php file.
@@ -206,10 +212,10 @@ chmod +x linpeas.sh
 
 ```
 
-![[linpeas.png]]
+![[]](linpeas.png)
 
 we found that we can run this file without root password. so let's go and exploit this vulnerability.
-![[previlege.png]]
+![[]](previlege.png)
 
 after read algorithm of the file i create this payload to get root shell.
 
@@ -236,9 +242,9 @@ c4920fb496c6b325d2ff3c5a692f568b
 
 ```
 
-![[done.png]]
+![[]](done.png)
 
-![[]](/assets/img/tryhackme/haskhell/root.gif)
+![[]](root.gif)
 
 Yep. Now we Got root.
 Thanks for reading until the end , if you have any feedback i will appreciate to get , knowing different ways to get root always good for me.
