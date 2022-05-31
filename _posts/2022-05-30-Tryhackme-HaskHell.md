@@ -20,7 +20,7 @@ render_with_liquid: false
 
 ## Overview
 
-It's a nice room , that you can use haskell and read file inside server . Previlege escalation step was easy actually that you can access root so fast .
+It's a nice room , that you can use haskell and read file inside server . Privilege escalation step was easy actually that you can access root so fast .
 
 # Write-up
 
