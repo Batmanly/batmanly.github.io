@@ -1,0 +1,300 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://0.0.0.0:4000/</id>
+  <title>Batmanly's Blog</title>
+  <subtitle>A minimal, responsive, and powerful Jekyll theme for presenting professional writing.</subtitle>
+  <updated>2023-04-28T11:18:55+03:00</updated>
+  <author>
+    <name>batmanly</name>
+    <uri>http://0.0.0.0:4000/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://0.0.0.0:4000/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en-US"
+    href="http://0.0.0.0:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator>
+  <rights> © 2023 batmanly </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>Vulnhub - Corrosion-1 | EN</title>
+    <link href="http://0.0.0.0:4000/posts/Vulnhub-Corrosion-1/" rel="alternate" type="text/html" title="Vulnhub - Corrosion-1 | EN" />
+    <published>2023-04-28T10:10:00+03:00</published>
+  
+    <updated>2023-04-28T10:10:00+03:00</updated>
+  
+    <id>http://0.0.0.0:4000/posts/Vulnhub-Corrosion-1/</id>
+    <content src="http://0.0.0.0:4000/posts/Vulnhub-Corrosion-1/" />
+    <author>
+      <name>batmanly</name>
+    </author>
+
+  
+    
+    <category term="Writeup" />
+    
+    <category term="Vulnhub" />
+    
+    <category term="Corrosion" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Information
+
+Room
+
+  Name: Corrosion-1
+  Profile: Corrosion-1
+  Difficulty: Easy
+  Description: A easy box for beginners, but not too easy. Good Luck.
+
+
+Write-up
+
+Overview
+It’s a nice room , you can exploit LFI injection , SSH poisoning attack , cracking Zip password with john , basic privilege escalation step .
+Enumeration
+
+Network enumeration
+
+let’s start finding ip address of the machine tha...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Vulnhub - Corrosion-2 | EN</title>
+    <link href="http://0.0.0.0:4000/posts/Vulnhub-Corrosion-2/" rel="alternate" type="text/html" title="Vulnhub - Corrosion-2 | EN" />
+    <published>2023-04-16T10:10:00+03:00</published>
+  
+    <updated>2023-04-16T10:10:00+03:00</updated>
+  
+    <id>http://0.0.0.0:4000/posts/Vulnhub-Corrosion-2/</id>
+    <content src="http://0.0.0.0:4000/posts/Vulnhub-Corrosion-2/" />
+    <author>
+      <name>batmanly</name>
+    </author>
+
+  
+    
+    <category term="Writeup" />
+    
+    <category term="Vulnhub" />
+    
+    <category term="Corrosion" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Information
+
+Room
+
+  Name: Corrosion-2
+  Profile: Corrosion-2
+  Difficulty: Medium
+  Description: Hint: Enumeration is key.
+
+
+Write-up
+
+Overview
+
+It was enjoyable room , i liked the way to use python module and escalate privileges . it’s also show how it’s important keep backup file save , if someone get this backups he can utilize and hack our system .
+
+Enumeration
+
+after import machine Virtua...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Vulnhub - Cybersploit-1 | EN</title>
+    <link href="http://0.0.0.0:4000/posts/Vulnhub-Cybersploit-1/" rel="alternate" type="text/html" title="Vulnhub - Cybersploit-1 | EN" />
+    <published>2023-03-25T10:10:00+03:00</published>
+  
+    <updated>2023-03-25T10:10:00+03:00</updated>
+  
+    <id>http://0.0.0.0:4000/posts/Vulnhub-Cybersploit-1/</id>
+    <content src="http://0.0.0.0:4000/posts/Vulnhub-Cybersploit-1/" />
+    <author>
+      <name>batmanly</name>
+    </author>
+
+  
+    
+    <category term="Writeup" />
+    
+    <category term="Vulnhub" />
+    
+    <category term="Cybersploit" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Information
+
+ROOM
+
+
+  Name: Cybersploit-1
+  Profile: Cybersploit-1
+  Difficulty: Easy
+  Description: THIS IS A MACHINE FOR COMPLETE BEGINNER , THERE ARE THREE FALGS AVAILABLE IN THIS VM. FROM THIS VMs YOU WILL LEARN ABOUT ENCODER-DECODER &amp;amp; EXPLOIT-DB.
+
+
+Write-up
+
+Overview
+
+It’s a easy machine you can learn encoding/decoding and user exploit db exploits.
+
+Network enumeration
+
+let’s start fin...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Vulnhub - Cybersploit-2 | EN</title>
+    <link href="http://0.0.0.0:4000/posts/Vulnhub-Cybersploit-2/" rel="alternate" type="text/html" title="Vulnhub - Cybersploit-2 | EN" />
+    <published>2023-03-15T10:10:00+03:00</published>
+  
+    <updated>2023-03-15T10:10:00+03:00</updated>
+  
+    <id>http://0.0.0.0:4000/posts/Vulnhub-Cybersploit-2/</id>
+    <content src="http://0.0.0.0:4000/posts/Vulnhub-Cybersploit-2/" />
+    <author>
+      <name>batmanly</name>
+    </author>
+
+  
+    
+    <category term="Writeup" />
+    
+    <category term="Vulnhub" />
+    
+    <category term="Cybersploit" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Information
+
+
+  Name: Cybersploit-2
+  Profile: Cybersploit-2
+  Difficulty: Easy
+  Description: THIS IS A MACHINE FOR COMPLETE BEGINNER , THERE ARE THREE FALGS AVAILABLE IN THIS VM. FROM THIS VMs YOU WILL LEARN ABOUT ENCODER-DECODER &amp;amp; EXPLOIT-DB.
+
+
+Write-up
+
+Overview
+It’s a nice room , you can learn encoding/decoding and privilege escalation with docker.
+
+Network enumeration
+
+let’s start fin...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>HackTheBox - BountyHunter | EN</title>
+    <link href="http://0.0.0.0:4000/posts/HackTheBox-BountyHunter/" rel="alternate" type="text/html" title="HackTheBox - BountyHunter | EN" />
+    <published>2022-05-31T09:10:00+03:00</published>
+  
+    <updated>2022-05-31T10:06:05+03:00</updated>
+  
+    <id>http://0.0.0.0:4000/posts/HackTheBox-BountyHunter/</id>
+    <content src="http://0.0.0.0:4000/posts/HackTheBox-BountyHunter/" />
+    <author>
+      <name>batmanly</name>
+    </author>
+
+  
+    
+    <category term="Writeup" />
+    
+    <category term="HackTheBox" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Information
+Room
+
+  Name: BountyHunter
+  Profile: BountyHunter
+  Difficulty: Easy
+
+
+
+
+Overview
+It’s a nice room , you can exploit xxe injection , php wrapper to read data, and get root access with exploiting python code and understand it’s algorithm.
+
+Write-up
+Let’s start enumeration and see what we can gather.
+
+Network enumeration
+Port and service scan with nmap:
+nmap -sV -T4 -sS -v -Pn -p- 10...
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+
